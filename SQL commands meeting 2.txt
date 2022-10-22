@@ -1,0 +1,132 @@
+*************************************************************
+SELECT
+	last_name,
+	first_name
+FROM
+	customer
+WHERE
+	first_name = 'Jamie';
+
+*************************************************************
+SELECT
+	first_name, address_id
+FROM
+	customer
+WHERE 
+	address_id BETWEEN 70 AND 100;
+
+*************************************************************
+SELECT
+	first_name,
+	last_name
+FROM
+	customer
+WHERE 
+	first_name IN ('Ann','Anne','Annie');
+
+*************************************************************
+SELECT
+	first_name,
+	last_name
+FROM
+	customer
+WHERE 
+	first_name NOT IN ('Ann','Anne','Annie');
+
+*************************************************************
+SELECT
+	first_name
+FROM
+	customer
+WHERE 
+	first_name LIKE 'A%';
+
+*************************************************************
+SELECT
+	first_name
+FROM
+	customer
+WHERE 
+	first_name NOT LIKE 'A%';
+
+*************************************************************
+SELECT
+	first_name
+FROM
+	customer
+WHERE 
+	first_name IS NULL;
+
+*************************************************************
+SELECT ALL
+	first_name
+FROM
+	customer;
+
+*************************************************************
+SELECT DISTINCT
+	first_name
+FROM
+	customer;
+
+*************************************************************
+SELECT
+	*
+FROM
+	customer
+WHERE 
+	first_name = 'Jennifer' AND last_name = 'Davis';
+
+
+*************************************************************
+SELECT
+	*
+FROM
+	customer
+WHERE 
+	first_name = 'Jennifer' OR last_name = 'Rose';
+
+*************************************************************
+SELECT
+	*
+FROM
+	customer
+ORDER BY 
+	first_name ASC;
+
+*************************************************************
+SELECT
+	*
+FROM
+	customer
+ORDER BY 
+	first_name DESC;
+
+*************************************************************
+SELECT
+	*
+FROM
+	customer
+LIMIT 15;
+
+*************************************************************
+SELECT 
+	first_name AS Nama
+FROM 
+	customer;
+
+*************************************************************
+SELECT 
+	first_name AS Nama
+FROM 
+	customer
+WHERE
+	Nama = 'Jared';
+
+*************************************************************
+SELECT 
+	first_name AS Nama
+FROM 
+	customer
+WHERE
+	first_name = 'Jared';
