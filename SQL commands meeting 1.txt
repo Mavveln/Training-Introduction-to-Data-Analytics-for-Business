@@ -1,0 +1,56 @@
+*************************************************************
+
+CREATE TABLE public.students
+(
+    student_id integer NOT NULL,
+    student_name character varying(40),
+    age integer,
+    height real,
+    PRIMARY KEY (student_id)
+);
+
+*************************************************************
+
+insert into students (student_id, student_name, age, height)
+values (1, 'Alfreds Futterkiste', 23, 1.72),
+(2, 'Berglunds snabbköp', 22, 1.81),
+(3, 'Arnold Schwarzenegger', 21, 1.80);
+
+*************************************************************
+
+select * from students
+
+*************************************************************
+
+update students
+set age = 20
+where student_id = 2;
+
+*************************************************************
+
+delete from students
+where student_id = 1;
+
+*************************************************************
+
+alter table students add nickname varchar(20);
+
+*************************************************************
+
+update students
+set nickname = 'Bergie'
+where student_id = 2;
+
+*************************************************************
+
+insert into students (student_id, student_name, age, height)
+values (, 'Bla bla', 29, 1.80);
+
+*************************************************************
+
+insert into students (student_id, student_name, age, height)
+values (2, 'Bla bla', 29, 1.80);
+
+*************************************************************
+
+drop table students;
