@@ -1,0 +1,26 @@
+Read Me First!
+
+WARNING: PLEASE MAKE A COPY NOTEBOOK TO DRIVE BEFORE CONNECT / RUNNING(File > Save a Copy in Drive) 
+supaya tidak mengubah file ASLI
+
+1. PPT hanya buat intro saja, target utamanya di praktikum karena EDA sudah dijelaskan di meeting 12
+   (feel free kalau instruktur mau menjelaskan ulang sedikit yang sudah dipelajari)
+2. Notebook filename_Instruktur hanya untuk Instruktur saja (hanya boleh dikasih ke siswa diakhir sesi)
+3. Notebook filename_Mahasiswa diberikan ke mahasiswa sejak awal karena berisi TODO
+4. Dalam penjelasannya Instruktur menggunakan filename_Mahasiswa, apabila instruktur juga kesulitan
+   bisa membuka filename_Instruktur untuk acuan/hint
+5. TODO berfungsi supaya mahasiswa tetap mendengar instruksi instruktur dan tidak buru-buru running syntax
+6. Semua data sudah berada didalam folder masing-masing
+
+
+Penyampaian Materi*:
+1. Intro PPT 5-10 menit
+2. Materi Notebook 60-100 Menit + Tanya Jawab (Penjelasan Utama)
+3. Kelompok (TODO terakhir dari setiap Part) 20-30 Menit
+4. Persentasi 10-20 Menit (tidak perlu semua / kelompok besar saja) 
+5. Jika tidak memungkinkan karena penjelasan materi terlalu panjang, Instruktur boleh mengganti poin 3 & 4
+   menjadi dibimbing langsung oleh Instruktur (Note: TODO Part 2 bebas, jadi kreativitas masing-masing instrukutr/Mhs)
+
+*Penyampaian materi berisfat fleksibel silahkan disesuaikan sendiri oleh Instruktur
+
+Goal: Mahasiswa memahami penerapan working with data dan juga peka dan kratif sebagai seorang data analyst
